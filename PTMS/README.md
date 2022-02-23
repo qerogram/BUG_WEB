@@ -4,19 +4,17 @@
 Qerogram<br><br>
 
 ## Version
-PHP Version : ![version](https://img.shields.io/badge/version-7.2.24-blue) <br>
-PTMS Version : ![version](https://img.shields.io/badge/version-2022.01.18-green)<br>
-<br>
+![version](https://img.shields.io/badge/php-7.2.24-blue) ![version](https://img.shields.io/badge/PTMS%20version-2022.01.18-green)<br><br>
 
 ## Vulnerability
-[+] Effect : RCE<br>
+RCE(Remote Code Execution) via File Upload<br><br>
 
-#### Chains the three vulnerabilities below and uses them.<br>
-1. <strong>[Insecure Permission Check]</strong><br><t>It does not check user permission when using the arbitrary file writing function.<br><br>
-2. <strong>[Arbitrary File Write Function]</strong><br><t>Limited arbitrary file write function exists.(Possible extension, "html".)
+Chains the three vulnerabilities below and uses them.<br>
+1. <strong>Insecure Permission Check</strong><br><t>It does not check user permission when using the arbitrary file writing function.<br><br>
+2. <strong>Arbitrary File Write Function</strong><br><t>Limited arbitrary file write function exists.(Possible extension, "html".)
 <br>![Arbitrary File Write](./report_img/file_write.png)
 <br><br>
-3. <strong>[LFI]</strong><br><t>the error handling page with the extension "html" is loaded through the keyword "include".
+3. <strong>Local File Include</strong><br><t>the error handling page with the extension "html" is loaded through the keyword "include".
 <br>![LFI](./report_img/LFI.png)
 <br><br>
 
