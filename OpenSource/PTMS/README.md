@@ -1,4 +1,6 @@
 # PTMS
+[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+<br>
 
 ## Author
 Qerogram<br><br>
