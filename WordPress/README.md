@@ -6,14 +6,16 @@
 ### &bull; [CVE-2022-0440 (RCE via File Upload)](CVE-2022-0440/) <br>
 ### &bull; [CVE-2022-0493 (Arbitrary File Read)](CVE-2022-0493/)<br>
 ### &bull; [CVE-2022-0687 (RCE via Arbitrary File Write)](CVE-2022-0687/)<br>
+### &bull; [CVE-2022-0537 (RCE via Arbitrary File Write)](CVE-2022-0537/)<br>
 <br>
+
 
 ## Reserved
-### &bull; [CVE-2022-0537 (RCE via Arbitrary File Write)](CVE-2022-0537/)<br>
+None
 
 <br>
 
-## No plans to disclose (only view poc in wpscan)
+## No plans to disclose (only view poc in wpscan pages)
 ### &bull; CVE-2022-0840 (Stored XSS)
 ### &bull; CVE-2022-0863 (RCE)
 ### &bull; CVE-2022-0887 (SQL Injection)
